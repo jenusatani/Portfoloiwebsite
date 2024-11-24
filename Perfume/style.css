@@ -1,0 +1,532 @@
+#carouselExampleInterval{
+    height: 30px;
+    background-color: black;
+}
+@font-face {
+    font-family: Twentieth Century Font;
+    src: url(TwCenMTStd-Light.otf);
+}
+body{
+    font-family: Twentieth Century Font;
+}
+#carouselExampleInterval span{
+    font-family: Twentieth Century Font;
+}
+
+#carouselExampleInterval span{
+    font-size: 14px;
+}
+
+
+
+/* section222 */
+
+
+.logo-bar{
+    height: 50px;
+
+}
+.logo-bar .row,.col{
+    height: inherit;
+}
+.logo-bar input{
+    border: 0px;
+    font-family: Twentieth Century Font;
+    border-bottom: 1px solid;
+}
+.logo-bar img{
+    height: 25px;
+}
+.logo-bar i{
+    margin-inline: 10px;
+    font-size: 20px;
+}
+
+
+
+/* section3 */
+
+
+.search-bar{
+    height: 50px;
+    /* background-color: aqua; */
+}
+
+.search-bar .row,.col{
+    height: inherit;
+}
+.search-bar input{
+    /* height: inherit; */
+    border: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+}
+
+
+/* section4 */
+
+
+.nav {
+    height: 40px;
+}
+.nav a{
+    font-size: 12px;
+    margin-inline: 10px;
+    color: #282828;
+}
+
+
+/* section5 */
+
+
+.items{
+    height: 50px;
+    width: 100%;
+    overflow: scroll;
+}
+.items div{
+    height: 30px;
+    /* width: initial; */
+    margin-inline: 2px;
+    font-size: 1.5vw;
+    background-color: #c2c2c248;
+}
+/* section6 */
+
+.promotion{
+    height: 50px;
+    background-color: #fff579;
+}
+.promotion span{
+    margin-inline: 20px;
+   
+}
+
+
+
+/* .section8 */
+
+.perfumes h1{
+    font-size: 29px;
+    font-weight: bolder;
+
+}
+
+
+/* section9 */
+
+
+
+.filter {
+    /* height: 50px; */
+    /* width: 80%; */
+}
+.filter button{
+    /* height: inherit; */
+    border: 0;
+}
+
+.btn-1{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+}   
+
+
+ .btn-2{
+    width: 250px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    transition: all 0.5s;
+   
+}
+
+ .btn-2:before{
+    content: '';
+    width: 250px;
+    background-color: black;
+    height: 35px;
+    left: -80%;
+    bottom: -250%;
+    position: absolute;
+    transform: rotate(90deg);
+} 
+
+
+.btn-2:hover:before{
+    content: '';
+    width: 250px;
+    background-color: black;
+    height: 35px;
+    /* color: white; */
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+    visibility: visible;
+    z-index: -1;
+}
+
+
+.btn-2:hover{
+    color: white;
+}
+
+
+
+/* section10 */
+
+
+
+.main-card-1{
+    /* height: 480px; */
+    /* border: 1px solid red; */
+}
+.row,.col-6{
+    height: inherit;
+    /* border: 0; */
+}
+.card{
+    height: inherit;    
+    border: 0;
+    border-radius: 0px;
+    /* width: 90%; */
+}
+#card-1 span{
+    font-size: 11px;
+    color: #8e8e8e;
+}
+#card-2 a{
+    font-size: 18px;
+    color: #282828;
+
+}
+#card-4{
+    font-size: 20px;
+    font-weight:600;
+}
+#card-4 del{
+    font-size: 15px;
+    font-weight: 100;
+    color: #8e8e8e;
+}
+.main-card-1 button{
+    background-color: black;
+    letter-spacing: 2px;
+    height: 40px;
+    border: 0;
+    margin-top: 10px;
+}
+
+
+/* footer */
+
+
+.footer{
+    height: 720px;
+    background-color: #434343;
+
+}
+.footer .container{
+    /* height: inherit; */
+}
+.box-1 p{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.box-2 p{
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.box-3 .p1{
+    letter-spacing: 2px;
+    color: white;
+}
+.box-3 input{
+    height: 50px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+.box-3 input::placeholder{
+    color: #afafaf;
+}
+.p2
+{
+    font-size: 13px;
+    color: white;
+}
+.p3{
+    color: white;
+    font-size: 13px;
+}
+.cir{
+    height: 40px;
+    width: 40px;
+    /* background-color: white; */
+
+}
+.cir:hover{
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.cir:hover i{
+    cursor: pointer;
+    color: #434343;
+    /* background-color: black; */
+}
+.icon{
+    color: white;
+}
+
+
+
+
+.footer h2{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.r2 a{
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+    
+}
+
+
+
+                    /* SM footer */
+
+
+.sm-footer{
+    background-color: #434343;
+    height: inherit;
+}
+.pre-1{
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.sm-footer input{
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.accordion{
+    background-color: #434343;
+}
+.accordion-item{
+    background-color: #434343;
+}
+.accordion-button {
+    background-color: #434343;
+    color: white;
+    letter-spacing: 3px;
+}
+.accordion-body ul{
+    list-style-type: none;
+}
+
+
+/* stcky menu sm  */
+
+
+.sticky-menu{
+    z-index: 5;
+    height: 60px;
+    background-color: white;
+    position: sticky;
+    bottom: 0px;
+}
+.sticky-menu span{
+    color: #212326bf;
+    font-size: 12px;
+}
+.sticky-menu i{
+    font-size: 20px;
+    color: #212326;
+}
+
+
+
+
+/* offcanvas */
+
+
+.offcanvas-end{
+    /* width: 75%; */
+    background-color: white;
+}
+
+.cart-1{
+    height: 100px;
+}
+.inner-left,.inner-right{
+    height: inherit;
+}
+
+
+
+.div-1 a{
+    font-size: 14px;
+    color: #1a1b18;
+}
+
+.div-2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.div-3{
+    width: 80px;
+    height: 30px;
+    /* display: inline; */
+    /* background-color: red; */
+}
+
+.div-3 h4{
+    font-size: 15px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+
+.i1{
+    /* padding-right: 5px; */
+    position: relative;
+    left: -15px;
+}
+.i2{
+    position: relative;
+    left: 15px;
+}
+.div-4{
+    /* display: inline-block; */
+    position: relative;
+    left: 180px;
+    bottom: 20px;
+}
+
+.div-4 del{
+    color: #212326b3;
+}
+.cart-1{
+    border-bottom: 1px solid #212326b3;
+}
+
+
+
+
+
+
+/* :hover */
+
+
+
+.hov {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  .hov::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #282828;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .hov:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+
+
+  /* footer hover */
+
+
+
+  
+.fot {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  .fot::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .fot:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+.whatsapp{
+    height: 50px;
+    position: fixed;    
+    z-index: 1;
+    right: 20px;
+    bottom: 20px;
+    /* left: 50px; */
+    /* top: 50px; */
+
+    width: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+.whatsapp i{
+    font-size: 32px;
+    color: #4bca5a;
+}
+.close-btn{
+    position: relative;
+    /* right: 30px; */
+    left: 290px;
+    bottom: 60px;
+}
+
+
+.offcanvas-body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
