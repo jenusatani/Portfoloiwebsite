@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+    /* background-color: #333; */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: white;
+}
+
+.nav1 {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 {
+    width: 40%; /* Adjusted to make 70% + 40% = 110% for lg screens */
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    margin-inline: 20px;
+}
+
+.nav3 {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right for lg screens */
+    margin-left: auto; /* Push to the end for lg screens */
+}
+
+.nav3 i {
+    margin-inline: 20px;
+}
+
+.menu{
+
+    width: 100%;
+    height: 50px;
+    background-color: #4c4c4c;
+}
+
+.menu .row{
+    background-color: #202020;
+    height: 40px;
+    width: 100px;
+    
+
+}
+.menu .row h6{
+    color: white;
+}
+
+.watch{
+    background-color: #f0f0f2;
+    height: 50vw;
+    overflow: hidden;
+}
+.watch .col{
+    /* border: ; */
+    width: 50%;
+
+}
+
+.watch .col h1{
+    font-size: 5vw;
+    padding-top: 15vw;
+    padding-left: 5vw;
+}
+.watch .col p{
+    padding-left: 5vw;
+    font-size: 1.1vw;
+}
+
+
+
+
+.watch .col button{
+    width: 10vw;
+    font-size: 1vw;
+    height: 3.2vw;
+    border-radius: 0px;
+    margin-left: 5vw;
+}
+
+
+.watch .col img{
+    margin-left: 5vw;
+    height: 50vw;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: scale 2s linear 0s infinite alternate;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+    
+}
+
+
+.arr h2{
+    font-size: 3vw;
+}
+.a2 a{
+    display: block;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    /* padding-left: 3.5vw; */
+}
+.a2 span{
+    color: red;
+    padding-top: 1.2vw;
+    /* padding-left: 10vw; */
+}
+.a2 img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+}
+.a2 .col{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.tw .row .col div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tw .row .col div a{
+    display: block;
+    padding-top: 1vw;
+}
+.tw .row .col div span{
+    padding-top: 0.2vw;
+    color: red;
+}
+.red-btn{
+    position: relative;
+    bottom: 1px;
+    background-color: red;
+    color: white;
+    height:50px;
+    transition: all 0.2s;
+}
+.imgd{
+    overflow: hidden;
+    /* background-color: blue; */
+    height: 360px;
+}
+
+.imgd:hover .red-btn{
+    bottom: 24px;
+}
+
+.btn-one button{
+
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+
+
+.vid{
+    background-image: url(https://preview.colorlib.com/theme/timezone/assets/img/gallery/sectin_bg1.png.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+}
+.vid .rounded-circle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.vid .rounded-circle i{
+    font-size: 30px;
+    color: white;
+}
+.rounded-circle:hover{
+    background-color: white;
+}
+.rounded-circle:hover i{
+    color: red;
+}
+
+.td button{
+    height: 50px;
+    width: 190px;
+    color: white;
+    background-color: red;
+    margin-top: 1.5vw;
+    font-size: 1vw;
+
+}
+.td h2{
+    font-size: 56px;
+}
+.td p{
+    color: #777777;
+    font-size: 17px;
+    padding-top: 1vw;
+}
+
+
+.dt button{
+    margin-left: 5vw;
+}
+
+
+.rede{
+    background-color: red;
+}
+.rede i{
+    font-size: 34px;
+    color: white;
+}
+.rede h6{
+    font-size: 20px;
+    
+}
+.rede p{
+    font-size: 16px;
+    color: #d3d1d1;
+}
+
+
+footer{
+    /* font-size: 16px; */
+    color: #868c98;
+
+}
+footer a{
+    color: #868c98;
+
+}
+.s3 div{
+    height: inherit;
+    width: 100px;
+}
+.hov a:hover{
+    color: red;
+    transition-duration: 0.5s;
+}
+.ho a:hover{
+    transform: translateX(10px);
+    transition: all 0.5s;
+}
