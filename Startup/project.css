@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.sec1{
+    background-image: url(https://preview.colorlib.com/theme/sierra/img/home-slider/slider-bg-1.png);
+    /* background-size: cover; */
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+#a1{
+    font-size: 5px;
+}
+.col-lg-7 .bt{
+    margin-left: 10%;
+    border: 5px solid #c5e2ff;
+    background: linear-gradient(90deg, #77b3fe, #8f98ff);
+    transition: 0.1s ease-in-out;
+}
+.col-lg-7 .bt:hover{
+    border: 5px solid #c5e2ff;
+background: linear-gradient(90deg, #8f98ff , #77b3fe);
+}
+.swiper {
+    width:100%;
+    height: 800px;  
+}
+.sec2{
+    height: 450px;
+    /* border: 2px solid red; */
+}
+.sec2 .bt2{
+    height: 70px;
+    width: 200px;
+    border-radius: 35px;
+    border: 5px solid #c5e2ff;
+    background: linear-gradient(90deg, #77b3fe, #8f98ff);
+    transition: 0.1s; 
+    display: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec2:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 0.5s;
+}
+.sec2:hover .bt2{
+display: block;
+transition-duration: 5s;
+}
+li:hover{
+    color: #77b3fe;
+    transition-duration: 0.5s;
+}
+.bt3{
+    height: 70px;
+    width: 200px;
+    border-radius: 35px;
+    border: 5px solid #c5e2ff;
+    background: linear-gradient(90deg, #77b3fe, #8f98ff);
+    transition: 0.1s; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec11{
+    height: 502px;
+    background-image: url(https://preview.colorlib.com/theme/sierra/img/world-map.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.map{
+    height: 175px;
+    width: 35%;
+    border-left: 10px solid #8f98ff;
+    margin-left: 15%;
+    position: relative;
+    top: 175px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.sec22{
+    height: 500px;
+    border: 1px solid ;
+    background-image: url(https://preview.colorlib.com/theme/sierra/img/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-color:#11173b;
+}
+#ic1{
+    color: #282e56;
+    font-size: 1    8px;
+}
+#ic1:hover{
+    color: white;
+}
+.background{
+    background-color: black;
+    color: white;
+}
+
+.header {
+    position: fixed;
+      z-index: 1000;
+      height: 100px;
+    width: 100%; 
+      /* background: rgba(34,34,34,0.25); */
+      padding: 18px;
+      -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+  }
+  
+  .active {
+    backdrop-filter: blur(5px);
+    /* background-color: rgba(0, 0, 0, 0.314); */
+  }
